@@ -1,3 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "packageRules": [
+    {
+      "matchPackageNames": ["github.com/acbox/demo-tf-module"],
+      "allowedVersions": "~> v0.1"
+    }
+  ],
+  "recreateClosed": true
 }
